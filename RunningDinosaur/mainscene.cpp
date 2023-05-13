@@ -1,15 +1,15 @@
 #include<mainscene.h>
 #include<config.h>
 #include<map.h>
-#include<QIcon>
 #include<QPainter>
-#include<QKeyEvent>
 #include<enemy.h>
 #include<QPushButton>
 #include<QDebug>
 #include<heart.h>
 #include<bird.h>
 #include <QSound>
+#include<QKeyEvent>
+#include<QIcon>
 Mainscene::Mainscene(QWidget *parent)
     : QWidget(parent),  y(200.0), v(0.0), g(0.13), ground(200), is_jumping(false), is_releasing(false), last_v(0.0)
 {

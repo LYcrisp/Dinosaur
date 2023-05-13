@@ -1,16 +1,15 @@
-#include "newscene.h"
 #include "mainscene.h"
 #include <QPushButton>
 #include<QDebug>
 #include<mainscene.h>
-#include<config.h>
 #include<map.h>
 #include<QIcon>
 #include<QPainter>
 #include<QKeyEvent>
 #include<enemy.h>
 #include<dinosaur.h>
-
+#include "newscene.h"
+#include<config.h>
 void NewScene::initScene()
 {
     //初始化窗口大小

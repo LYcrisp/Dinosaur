@@ -1,6 +1,6 @@
 #ifndef MAINSCENE_H
 #define MAINSCENE_H
-
+#include<QPushButton>
 #include <QWidget>
 #include<QTimer>
 #include<map.h>
@@ -8,7 +8,6 @@
 #include<QKeyEvent>
 #include<config.h>
 #include<enemy.h>
-#include<QPushButton>
 #include<cloud.h>
 #include<heart.h>
 #include<bird.h>

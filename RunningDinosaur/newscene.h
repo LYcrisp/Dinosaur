@@ -5,8 +5,8 @@
 #include <QWidget>
 #include<QTimer>
 #include <QWidget>
-#include <QKeyEvent>
 #include<dinosaur.h>
+#include <QKeyEvent>
 class Mainscene;
 class NewScene : public QWidget
 {
