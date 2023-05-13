@@ -1,0 +1,66 @@
+<RCC>
+    <qresource prefix="/">
+        <file>1/background.png</file>
+        <file>1/bc_1.png</file>
+        <file>1/bc_2.png</file>
+        <file>1/bc_3.png</file>
+        <file>1/bc_4.png</file>
+        <file>1/big_one.png</file>
+        <file>1/big_three.png</file>
+        <file>1/big_two.png</file>
+        <file>1/bird_1.png</file>
+        <file>1/bird_2.png</file>
+        <file>1/cloud.png</file>
+        <file>1/dowm_l.png</file>
+        <file>1/down_r.png</file>
+        <file>1/left.png</file>
+        <file>1/one_1.png</file>
+        <file>1/one_2.png</file>
+        <file>1/right.png</file>
+        <file>1/two_1.png</file>
+        <file>1/two_2.png</file>
+        <file>1/up.png</file>
+        <file>dino/cactuses_big_1.png</file>
+        <file>dino/cactuses_big_2.png</file>
+        <file>dino/cactuses_big_3.png</file>
+        <file>dino/cactuses_small_1.png</file>
+        <file>dino/cactuses_small_2.png</file>
+        <file>dino/cactuses_small_3.png</file>
+        <file>dino/dino-down.png</file>
+        <file>dino/dino-hurt.png</file>
+        <file>dino/dino-idle.png</file>
+        <file>dino/dino-run.png</file>
+        <file>dino/enemy-bird.png</file>
+        <file>dino/game-over.png</file>
+        <file>dino/ground.png</file>
+        <file>dino/hit.m4a</file>
+        <file>dino/jump (1).m4a</file>
+        <file>dino/reach.m4a</file>
+        <file>dino/restart.png</file>
+        <file>1/hit.mp3</file>
+        <file>1/jump1).mp3</file>
+        <file>1/reach.mp3</file>
+        <file>1/hit.wav</file>
+        <file>1/jump1_.wav</file>
+        <file>1/reach.wav</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>dino/cactuses_big_1.png</file>
+        <file>dino/cactuses_big_2.png</file>
+        <file>dino/cactuses_big_3.png</file>
+        <file>dino/cactuses_small_1.png</file>
+        <file>dino/cactuses_small_2.png</file>
+        <file>dino/cactuses_small_3.png</file>
+        <file>dino/dino-down.png</file>
+        <file>dino/dino-hurt.png</file>
+        <file>dino/dino-idle.png</file>
+        <file>dino/dino-run.png</file>
+        <file>dino/enemy-bird.png</file>
+        <file>dino/game-over.png</file>
+        <file>dino/ground.png</file>
+        <file>dino/hit.m4a</file>
+        <file>dino/jump (1).m4a</file>
+        <file>dino/reach.m4a</file>
+        <file>dino/restart.png</file>
+    </qresource>
+</RCC>

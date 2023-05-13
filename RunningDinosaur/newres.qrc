@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>HEART/HEART.png</file>
+        <file>HEART/HEARTs.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>dino/cactuses_big_1.png</file>
+        <file>dino/cactuses_big_2.png</file>
+        <file>dino/cactuses_big_3.png</file>
+        <file>dino/cactuses_small_1.png</file>
+        <file>dino/cactuses_small_2.png</file>
+        <file>dino/cactuses_small_3.png</file>
+        <file>dino/dino-down.png</file>
+        <file>dino/dino-hurt.png</file>
+        <file>dino/dino-idle.png</file>
+        <file>dino/dino-run.png</file>
+        <file>dino/enemy-bird.png</file>
+        <file>dino/game-over.png</file>
+        <file>dino/ground.png</file>
+        <file>dino/hit.m4a</file>
+        <file>dino/jump (1).m4a</file>
+        <file>dino/reach.m4a</file>
+        <file>dino/restart.png</file>
+    </qresource>
+</RCC>
