@@ -13,7 +13,7 @@ public:
     //设置恐龙位置
     void setPosition(int x,int y);
 
-    //恐龙资源对象
+
     QPixmap d_dinosaur;
     QPixmap d_dinosaur1;
     QPixmap d_dinosaur2;

@@ -11,7 +11,7 @@ public:
     //更新坐标
 
     void updatePosition();
-    //鸟资源对象
+
     QPixmap b_bird;
     QPixmap b_bird1;
     QPixmap b_bird2;

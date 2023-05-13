@@ -10,7 +10,7 @@ public:
     //更新坐标
     void updatePosition();
 public:
-    //低级资源对象
+
     QPixmap m_enermy;
     QPixmap m_enermy1;
     QPixmap m_enermy2;

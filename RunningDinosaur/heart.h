@@ -10,7 +10,7 @@ public:
     //更新坐标
     void updatePosition();
 public:
-    //低级资源对象
+
     QPixmap h_heart;
 
     QRectF h_Collision; // 添加 m_Collision 成员变量

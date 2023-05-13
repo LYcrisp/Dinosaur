@@ -11,7 +11,7 @@ public:
 
 public:
     void updatePosition();
-    //低级资源对象
+
     QPixmap c_cloud;
 
     //位置
