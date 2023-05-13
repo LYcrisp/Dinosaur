@@ -26,7 +26,7 @@ void NewScene::initScene()
 
 NewScene::NewScene(Mainscene *mainscene,QWidget *parent) : QWidget(parent)
 {
-    //调用初始化场景
+    //初始化场景
     initScene();
     this->mainscene = mainscene;
     connect(this, &NewScene::space_key_pressed, this, &NewScene::onSpaceKeyPressed); // 连接信号和槽
@@ -56,7 +56,7 @@ void NewScene::onSpaceKeyPressed(QKeyEvent *event)
 
         hide(); // 隐藏当前窗口
 
-        mainscene->show(); // 显示MainScene窗口
+        mainscene->show(); // 显示MainScene
 }
 
 

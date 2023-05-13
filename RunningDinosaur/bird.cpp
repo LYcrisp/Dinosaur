@@ -17,7 +17,7 @@ Bird::Bird()
     //鸟速度
     b_Speed = BIRD_SPEED;
 
-    //爱心边框（碰撞检测）
+    //边框（碰撞检测）
     b_Rect.setWidth(20);
     b_Rect.setHeight(10);
     b_Rect.moveTo(b_x,b_y);

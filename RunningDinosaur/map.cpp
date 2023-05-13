@@ -8,17 +8,17 @@ Map::Map()
     m_map2.load(MAP_PATH);
 
 
-    //初始化X轴坐标
+    //初始化X轴
     m_map1_posX = GAME_WIDTH;
     m_map2_posX = 0;
 
-    //地图滚动速度
+    //滚动速度
     m_scroll_speed = MAP_SCROLL_SPEED;
 }
 
 void Map::mapPosition()
 {
-    //第一张图片滚动
+    //第一张滚动
     m_map1_posX -= m_scroll_speed;     //向左
     if(m_map1_posX <= 0)
     {
