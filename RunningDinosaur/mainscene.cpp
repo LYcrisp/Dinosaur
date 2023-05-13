@@ -423,7 +423,7 @@ void Mainscene::enermyToScene()
     {
         if(m_enermys[i].m_Free)
         {
-            // 随机生成仙人掌类型，每种类型对应不同的碰撞框大小
+
             int type = qrand() % 6 + 1;
             QPixmap pixmap;
             if (type == 1) {
@@ -571,7 +571,7 @@ bool Mainscene::collisiondDetection()
 
 bool Mainscene::checkCollision()
 {
-    // 遍历恐龙和爱心数组，检测是否碰撞
+
     QRect dinoRect(d_dinosaur.d_x, d_dinosaur.d_y, d_dinosaur.d_dinosaur.width(), d_dinosaur.d_dinosaur.height());
     for (int i = 0; i < HEART_NUM; i++) {
         if (h_hearts[i].h_Free == false) {
