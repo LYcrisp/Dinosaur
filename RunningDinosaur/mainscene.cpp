@@ -1,3 +1,7 @@
+#include<bird.h>
+#include <QSound>
+#include<QKeyEvent>
+#include<QIcon>
 #include<mainscene.h>
 #include<config.h>
 #include<map.h>
@@ -6,10 +10,7 @@
 #include<QPushButton>
 #include<QDebug>
 #include<heart.h>
-#include<bird.h>
-#include <QSound>
-#include<QKeyEvent>
-#include<QIcon>
+
 Mainscene::Mainscene(QWidget *parent)
     : QWidget(parent),  y(200.0), v(0.0), g(0.13), ground(200), is_jumping(false), is_releasing(false), last_v(0.0)
 {
@@ -545,7 +546,7 @@ void Mainscene::cloudToScene()
             c_clouds[i].c_cloud = pixmap;
             c_clouds[i].c_Free = false;
             c_clouds[i].c_x = WIN_LONG ;
-            c_clouds[i].c_y = qrand() % 151; // 生成0-150之间的随机数
+            c_clouds[i].c_y = qrand() % 151;
             break;
         }
     }
