@@ -1,4 +1,3 @@
-#include<bird.h>
 #include <QSound>
 #include<QKeyEvent>
 #include<QIcon>
@@ -10,7 +9,7 @@
 #include<QPushButton>
 #include<QDebug>
 #include<heart.h>
-
+#include<bird.h>
 Mainscene::Mainscene(QWidget *parent)
     : QWidget(parent),  y(200.0), v(0.0), g(0.13), ground(200), is_jumping(false), is_releasing(false), last_v(0.0)
 {
@@ -175,7 +174,7 @@ void Mainscene::restartGame()
 
 void Mainscene::updatePosition()
 {
-    //更新地图坐标
+    //更新坐标
     m_map.mapPosition();
 
     //仙人掌
@@ -322,13 +321,13 @@ void Mainscene::paintEvent(QPaintEvent *)  //绘制
         path2.cubicTo(50, 0, 75, 15, 75, 40);
         painter.drawPath(path2);
 
-        // 绘制数字
+        // 绘制生命
         QFont font("Arial", 30, QFont::Bold);
         painter.setFont(font);
         painter.setPen(Qt::black);
         painter.drawText(55, 75, QString::number(m_gameover));
 
-        // 绘制游戏得分
+        // 绘制得分
             QFont font1;
             font.setPointSize(20);
             painter.setFont(font);
