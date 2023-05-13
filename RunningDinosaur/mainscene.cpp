@@ -28,21 +28,21 @@ Mainscene::~Mainscene()
 
 void Mainscene::initScene()
 {
-    //初始化窗口大小
+    //窗口大小
     setFixedSize(WIN_LONG,GAME_HEIGHT);
 
-    //设置窗口标题
+    //标题
     setWindowTitle(GAME_TITLE);
 
-    //设置图标资源
+    //图标
     setWindowIcon(QIcon( GAME_ICON));
 
-    //定时器设置
+    //定时器
     m_Timer.setInterval(GAME_RATE);
 
 
 
-    //仙人掌出现的时间间隔 初始化
+    //仙人掌出现的时间间隔
     m_recorder= 0;
 
     // 初始化重新开始按钮

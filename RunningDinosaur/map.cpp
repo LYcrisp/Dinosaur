@@ -3,7 +3,7 @@
 #include<config.h>
 Map::Map()
 {
-    //初始化加载地图对象
+    //加载地图
     m_map1.load(MAP_PATH);
     m_map2.load(MAP_PATH);
 
@@ -18,14 +18,14 @@ Map::Map()
 
 void Map::mapPosition()
 {
-    //处理第一张图片滚动位置
+    //第一张图片滚动
     m_map1_posX -= m_scroll_speed;     //向左
     if(m_map1_posX <= 0)
     {
         m_map1_posX = GAME_WIDTH;
     }
 
-    //处理第二张图片滚动位置
+    //第二张
     m_map2_posX -= m_scroll_speed;
     if(m_map2_posX <= -GAME_WIDTH)
     {

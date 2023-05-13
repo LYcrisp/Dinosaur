@@ -7,7 +7,7 @@ class Enermy
 {
 public:
     Enermy();
-    //更新坐标
+
     void updatePosition();
 public:
 
@@ -23,7 +23,7 @@ public:
     int m_x;
     int m_y;
 
-    //边距检测
+
     QRect m_Rect;
     QRect m_Rect1;
     QRect m_Rect2;
@@ -37,4 +37,4 @@ public:
     int m_Speed;
 };
 
-#endif // ENERMYPLANE_H
+#endif
