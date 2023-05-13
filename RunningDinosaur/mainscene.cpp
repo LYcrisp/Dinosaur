@@ -178,7 +178,7 @@ void Mainscene::updatePosition()
     //更新地图坐标
     m_map.mapPosition();
 
-    //仙人掌出场
+    //仙人掌
     for(int i = 0;i < ENERMY_NUM; i++)
     {
         if(m_enermys[i].m_Free == false)
@@ -186,7 +186,7 @@ void Mainscene::updatePosition()
             m_enermys[i].updatePosition();
         }
     }
-    //鸟出场
+    //鸟
     for(int i = 0;i < BIRD_NUM; i++)
     {
         if(b_birds[i].b_Free == false)
@@ -194,7 +194,7 @@ void Mainscene::updatePosition()
             b_birds[i].updatePosition();
         }
     }
-    //云出场
+    //云
     for(int i = 0;i < CLOUD_NUM; i++)
     {
         if(c_clouds[i].c_Free == false)
@@ -202,7 +202,7 @@ void Mainscene::updatePosition()
             c_clouds[i].updatePosition();
         }
     }
-    //爱心出场
+    //爱心
     for(int i = 0;i < HEART_NUM; i++)
     {
         if(h_hearts[i].h_Free== false)
@@ -217,14 +217,14 @@ void Mainscene::updateMark()
     mark++;
 }
 
-void Mainscene::paintEvent(QPaintEvent *)
+void Mainscene::paintEvent(QPaintEvent *)  //绘制
 {
     QPainter painter(this);
 
-    //绘制地图
+    //地图
     painter.drawPixmap(m_map.m_map1_posX,280,m_map.m_map1);
     painter.drawPixmap(m_map.m_map2_posX,280,m_map.m_map2);
-    //绘制恐龙
+    //恐龙
     painter.drawPixmap(d_dinosaur.d_x,d_dinosaur.d_y,d_dinosaur.d_dinosaur);
     if (d_dinosaur.d_y == ground) {
         static int frame = 0;
@@ -241,7 +241,7 @@ void Mainscene::paintEvent(QPaintEvent *)
         painter.drawPixmap(d_dinosaur.d_x,d_dinosaur.d_y,d_dinosaur.d_dinosaur3);
     }
 
-    //绘制鸟
+    //鸟
 
 
     for(int i = 0;i < BIRD_NUM; i++)
@@ -264,7 +264,7 @@ void Mainscene::paintEvent(QPaintEvent *)
         }
     }
 
-    //绘制仙人掌
+    //仙人掌
     for(int i = 0;i < ENERMY_NUM; i++)
     {
         if(m_enermys[i].m_Free == false)
