@@ -14,16 +14,16 @@ public:
     QPixmap h_heart;
 
     QRectF h_Collision; // 添加 m_Collision 成员变量
-    //位置
+
     int h_x;
     int h_y;
 
-    //边距检测
+
     QRect h_Rect;
 
-    //状态
+
     bool h_Free;
-    //速度
+
     int h_Speed;
 };
 

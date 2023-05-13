@@ -5,7 +5,7 @@
 class Map{
 
 public:
-    //构造函数
+
     Map();
     //地图滚动坐标计算
     void mapPosition();

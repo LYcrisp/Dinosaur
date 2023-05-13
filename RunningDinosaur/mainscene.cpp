@@ -568,7 +568,7 @@ bool Mainscene::collisiondDetection()
     return false; // 没有碰撞
     }
 }
-
+// bool Mainscene::checkCollision()
 bool Mainscene::checkCollision()
 {
 
